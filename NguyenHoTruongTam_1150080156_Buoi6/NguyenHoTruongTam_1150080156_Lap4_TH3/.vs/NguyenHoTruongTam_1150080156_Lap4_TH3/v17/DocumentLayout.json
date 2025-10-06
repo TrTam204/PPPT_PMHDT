@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\A.M\u00D4N H\u1ECCC\\DACN\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi6\\NguyenHoTruongTam_1150080156_Lap4_TH3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B7F7B7-2B34-451B-8940-6172865DB04D}|NguyenHoTruongTam_1150080156_Lap4_TH3\\NguyenHoTruongTam_1150080156_Lap4_TH3.csproj|d:\\a.m\u00F4n h\u1ECDc\\dacn\\pppt_pmhdt\\nguyenhotruongtam_1150080156_buoi6\\nguyenhotruongtam_1150080156_lap4_th3\\nguyenhotruongtam_1150080156_lap4_th3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B7F7B7-2B34-451B-8940-6172865DB04D}|NguyenHoTruongTam_1150080156_Lap4_TH3\\NguyenHoTruongTam_1150080156_Lap4_TH3.csproj|solutionrelative:nguyenhotruongtam_1150080156_lap4_th3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B7F7B7-2B34-451B-8940-6172865DB04D}|NguyenHoTruongTam_1150080156_Lap4_TH3\\NguyenHoTruongTam_1150080156_Lap4_TH3.csproj|d:\\a.m\u00F4n h\u1ECDc\\dacn\\pppt_pmhdt\\nguyenhotruongtam_1150080156_buoi6\\nguyenhotruongtam_1150080156_lap4_th3\\nguyenhotruongtam_1150080156_lap4_th3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B7B7F7B7-2B34-451B-8940-6172865DB04D}|NguyenHoTruongTam_1150080156_Lap4_TH3\\NguyenHoTruongTam_1150080156_Lap4_TH3.csproj|solutionrelative:nguyenhotruongtam_1150080156_lap4_th3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B7F7B7-2B34-451B-8940-6172865DB04D}|NguyenHoTruongTam_1150080156_Lap4_TH3\\NguyenHoTruongTam_1150080156_Lap4_TH3.csproj|d:\\a.m\u00F4n h\u1ECDc\\dacn\\pppt_pmhdt\\nguyenhotruongtam_1150080156_buoi6\\nguyenhotruongtam_1150080156_lap4_th3\\nguyenhotruongtam_1150080156_lap4_th3\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B7F7B7-2B34-451B-8940-6172865DB04D}|NguyenHoTruongTam_1150080156_Lap4_TH3\\NguyenHoTruongTam_1150080156_Lap4_TH3.csproj|solutionrelative:nguyenhotruongtam_1150080156_lap4_th3\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\A.M\u00D4N H\u1ECCC\\DACN\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi6\\NguyenHoTruongTam_1150080156_Lap4_TH3\\NguyenHoTruongTam_1150080156_Lap4_TH3\\Form1.cs",
+              "RelativeDocumentMoniker": "NguyenHoTruongTam_1150080156_Lap4_TH3\\Form1.cs",
+              "ToolTip": "D:\\A.M\u00D4N H\u1ECCC\\DACN\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi6\\NguyenHoTruongTam_1150080156_Lap4_TH3\\NguyenHoTruongTam_1150080156_Lap4_TH3\\Form1.cs",
+              "RelativeToolTip": "NguyenHoTruongTam_1150080156_Lap4_TH3\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T07:40:01.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\A.M\u00D4N H\u1ECCC\\DACN\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi6\\NguyenHoTruongTam_1150080156_Lap4_TH3\\NguyenHoTruongTam_1150080156_Lap4_TH3\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "NguyenHoTruongTam_1150080156_Lap4_TH3\\Form1.Designer.cs",
+              "ToolTip": "D:\\A.M\u00D4N H\u1ECCC\\DACN\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi6\\NguyenHoTruongTam_1150080156_Lap4_TH3\\NguyenHoTruongTam_1150080156_Lap4_TH3\\Form1.Designer.cs",
+              "RelativeToolTip": "NguyenHoTruongTam_1150080156_Lap4_TH3\\Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T07:39:34.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\A.M\u00D4N H\u1ECCC\\DACN\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi6\\NguyenHoTruongTam_1150080156_Lap4_TH3\\NguyenHoTruongTam_1150080156_Lap4_TH3\\Form1.cs",
+              "RelativeDocumentMoniker": "NguyenHoTruongTam_1150080156_Lap4_TH3\\Form1.cs",
+              "ToolTip": "D:\\A.M\u00D4N H\u1ECCC\\DACN\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi6\\NguyenHoTruongTam_1150080156_Lap4_TH3\\NguyenHoTruongTam_1150080156_Lap4_TH3\\Form1.cs [Design]",
+              "RelativeToolTip": "NguyenHoTruongTam_1150080156_Lap4_TH3\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T07:37:20.141Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
