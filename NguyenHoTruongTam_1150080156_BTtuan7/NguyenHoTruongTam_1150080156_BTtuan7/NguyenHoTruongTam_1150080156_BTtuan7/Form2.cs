@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace NguyenHoTruongTam_1150080156_BTtuan7
@@ -15,7 +9,7 @@ namespace NguyenHoTruongTam_1150080156_BTtuan7
     {
         // Chuỗi kết nối
         private readonly string _connStr =
-                @"Data Source=(LocalDB)\MSSQLLocalDB;
+            @"Data Source=(LocalDB)\MSSQLLocalDB;
               AttachDbFilename=""D:\A.MÔN HỌC\DACN\PPPT_PMHDT\NguyenHoTruongTam_1150080156_BTtuan7\NguyenHoTruongTam_1150080156_BTtuan7\NguyenHoTruongTam_1150080156_BTtuan7\QuanlySinhvien.mdf"";
               Integrated Security=True";
 
@@ -30,7 +24,7 @@ namespace NguyenHoTruongTam_1150080156_BTtuan7
         private void MoKetNoi()
         {
             if (sqlCon == null)
-                sqlCon = new SqlConnection(strCon);
+                sqlCon = new SqlConnection(_connStr);   // <<< sửa ở đây
 
             if (sqlCon.State == ConnectionState.Closed)
                 sqlCon.Open();
@@ -50,30 +44,28 @@ namespace NguyenHoTruongTam_1150080156_BTtuan7
             {
                 MoKetNoi();
 
-                SqlCommand sqlCmd = new SqlCommand("SELECT * FROM SinhVien", sqlCon);
-
-                lsvDanhSachSV.Items.Clear();
-                SqlDataReader reader = sqlCmd.ExecuteReader();
-
-                while (reader.Read())
+                using (SqlCommand sqlCmd = new SqlCommand("SELECT * FROM SinhVien", sqlCon))
+                using (SqlDataReader reader = sqlCmd.ExecuteReader())
                 {
-                    string maSv = reader.GetString(0);
-                    string tenSv = reader.GetString(1);
-                    string gioiTinh = reader.GetString(2);
-                    string ngaySinh = reader.GetDateTime(3).ToString("dd/MM/yyyy");
-                    string queQuan = reader.GetString(4);
-                    string maLop = reader.GetString(5);
+                    lsvDanhSachSV.Items.Clear();
+                    while (reader.Read())
+                    {
+                        string maSv = reader.GetString(0);
+                        string tenSv = reader.GetString(1);
+                        string gioiTinh = reader.GetString(2);
+                        string ngaySinh = reader.GetDateTime(3).ToString("dd/MM/yyyy");
+                        string queQuan = reader.IsDBNull(4) ? "" : reader.GetString(4);
+                        string maLop = reader.GetString(5);
 
-                    ListViewItem lvi = new ListViewItem(maSv);
-                    lvi.SubItems.Add(tenSv);
-                    lvi.SubItems.Add(gioiTinh);
-                    lvi.SubItems.Add(ngaySinh);
-                    lvi.SubItems.Add(queQuan);
-                    lvi.SubItems.Add(maLop);
-                    lsvDanhSachSV.Items.Add(lvi);
+                        ListViewItem lvi = new ListViewItem(maSv);
+                        lvi.SubItems.Add(tenSv);
+                        lvi.SubItems.Add(gioiTinh);
+                        lvi.SubItems.Add(ngaySinh);
+                        lvi.SubItems.Add(queQuan);
+                        lvi.SubItems.Add(maLop);
+                        lsvDanhSachSV.Items.Add(lvi);
+                    }
                 }
-
-                reader.Close();
             }
             catch (Exception ex)
             {
@@ -108,27 +100,24 @@ namespace NguyenHoTruongTam_1150080156_BTtuan7
                 string sql = @"INSERT INTO SinhVien (MaSV, TenSV, GioiTinh, NgaySinh, QueQuan, MaLop)
                                VALUES (@MaSV, @TenSV, @GioiTinh, @NgaySinh, @QueQuan, @MaLop)";
 
-                SqlCommand cmd = new SqlCommand(sql, sqlCon);
-                cmd.CommandType = CommandType.Text;
-
-                cmd.Parameters.AddWithValue("@MaSV", maSV);
-                cmd.Parameters.AddWithValue("@TenSV", tenSV);
-                cmd.Parameters.AddWithValue("@GioiTinh", gioiTinh);
-                cmd.Parameters.Add("@NgaySinh", SqlDbType.Date).Value = ngaySinh;
-                cmd.Parameters.AddWithValue("@QueQuan", queQuan);
-                cmd.Parameters.AddWithValue("@MaLop", maLop);
-
-                int kq = cmd.ExecuteNonQuery();
-
-                if (kq > 0)
+                using (SqlCommand cmd = new SqlCommand(sql, sqlCon))
                 {
-                    MessageBox.Show("Thêm sinh viên (parameter) thành công!");
-                    HienThiDanhSach();
+                    cmd.CommandType = CommandType.Text;
+                    cmd.Parameters.AddWithValue("@MaSV", maSV);
+                    cmd.Parameters.AddWithValue("@TenSV", tenSV);
+                    cmd.Parameters.AddWithValue("@GioiTinh", gioiTinh);
+                    cmd.Parameters.Add("@NgaySinh", SqlDbType.Date).Value = ngaySinh;
+                    if (string.IsNullOrWhiteSpace(queQuan))
+                        cmd.Parameters.AddWithValue("@QueQuan", DBNull.Value);
+                    else
+                        cmd.Parameters.AddWithValue("@QueQuan", queQuan);
+                    cmd.Parameters.AddWithValue("@MaLop", maLop);
+
+                    int kq = cmd.ExecuteNonQuery();
+                    MessageBox.Show(kq > 0 ? "Thêm sinh viên (parameter) thành công!" : "Không có bản ghi nào được thêm!");
                 }
-                else
-                {
-                    MessageBox.Show("Không có bản ghi nào được thêm!");
-                }
+
+                HienThiDanhSach();
             }
             catch (Exception ex)
             {
@@ -143,6 +132,7 @@ namespace NguyenHoTruongTam_1150080156_BTtuan7
         // Khi form load
         private void Form2_Load(object sender, EventArgs e)
         {
+            cbGioiTinh.Items.Clear();
             cbGioiTinh.Items.Add("Nam");
             cbGioiTinh.Items.Add("Nữ");
             HienThiDanhSach();

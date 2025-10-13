@@ -13,7 +13,7 @@ namespace NguyenHoTruongTam_1150080156_BTtuan7
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form3());
+            Application.Run(new Form2());
         }
     }
 }
