@@ -1,5 +1,5 @@
-using Microsoft.AspNetCore.Mvc;
 using ProjectWeek01_Tam_1150080156.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace ProjectWeek01_Tam_1150080156.Controllers
