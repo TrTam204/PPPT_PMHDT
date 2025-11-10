@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\A.monhoc\\BT_QLDA\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi11\\ProjectWeek01_Tam_1150080156\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71B6B712-5829-4F10-8C36-E49588F2C6B8}|ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156.csproj|d:\\a.monhoc\\bt_qlda\\pppt_pmhdt\\nguyenhotruongtam_1150080156_buoi11\\projectweek01_tam_1150080156\\projectweek01_tam_1150080156\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71B6B712-5829-4F10-8C36-E49588F2C6B8}|ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156.csproj|solutionrelative:projectweek01_tam_1150080156\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B6B712-5829-4F10-8C36-E49588F2C6B8}|ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156.csproj|d:\\a.monhoc\\bt_qlda\\pppt_pmhdt\\nguyenhotruongtam_1150080156_buoi11\\projectweek01_tam_1150080156\\projectweek01_tam_1150080156\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71B6B712-5829-4F10-8C36-E49588F2C6B8}|ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156.csproj|solutionrelative:projectweek01_tam_1150080156\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B6B712-5829-4F10-8C36-E49588F2C6B8}|ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156.csproj|d:\\a.monhoc\\bt_qlda\\pppt_pmhdt\\nguyenhotruongtam_1150080156_buoi11\\projectweek01_tam_1150080156\\projectweek01_tam_1150080156\\views\\home\\dashboardcontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71B6B712-5829-4F10-8C36-E49588F2C6B8}|ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156.csproj|solutionrelative:projectweek01_tam_1150080156\\views\\home\\dashboardcontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B6B712-5829-4F10-8C36-E49588F2C6B8}|ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156.csproj|d:\\a.monhoc\\bt_qlda\\pppt_pmhdt\\nguyenhotruongtam_1150080156_buoi11\\projectweek01_tam_1150080156\\projectweek01_tam_1150080156\\wwwroot\\assets\\admin\\pages\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71B6B712-5829-4F10-8C36-E49588F2C6B8}|ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156.csproj|solutionrelative:projectweek01_tam_1150080156\\wwwroot\\assets\\admin\\pages\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B6B712-5829-4F10-8C36-E49588F2C6B8}|ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156.csproj|d:\\a.monhoc\\bt_qlda\\pppt_pmhdt\\nguyenhotruongtam_1150080156_buoi11\\projectweek01_tam_1150080156\\projectweek01_tam_1150080156\\images\\mvc.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{71B6B712-5829-4F10-8C36-E49588F2C6B8}|ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156.csproj|solutionrelative:projectweek01_tam_1150080156\\images\\mvc.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 304,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\A.monhoc\\BT_QLDA\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi11\\ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectWeek01_Tam_1150080156\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\A.monhoc\\BT_QLDA\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi11\\ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProjectWeek01_Tam_1150080156\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T06:37:59.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardContent.cshtml",
+              "DocumentMoniker": "D:\\A.monhoc\\BT_QLDA\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi11\\ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156\\Views\\Home\\DashboardContent.cshtml",
+              "RelativeDocumentMoniker": "ProjectWeek01_Tam_1150080156\\Views\\Home\\DashboardContent.cshtml",
+              "ToolTip": "D:\\A.monhoc\\BT_QLDA\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi11\\ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156\\Views\\Home\\DashboardContent.cshtml",
+              "RelativeToolTip": "ProjectWeek01_Tam_1150080156\\Views\\Home\\DashboardContent.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T07:31:32.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\A.monhoc\\BT_QLDA\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi11\\ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156\\wwwroot\\Assets\\Admin\\pages\\index.html",
+              "RelativeDocumentMoniker": "ProjectWeek01_Tam_1150080156\\wwwroot\\Assets\\Admin\\pages\\index.html",
+              "ToolTip": "D:\\A.monhoc\\BT_QLDA\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi11\\ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156\\wwwroot\\Assets\\Admin\\pages\\index.html",
+              "RelativeToolTip": "ProjectWeek01_Tam_1150080156\\wwwroot\\Assets\\Admin\\pages\\index.html",
+              "ViewState": "AQIAAJADAAAAAAAAAAAmwKkDAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-10T07:22:11.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\A.monhoc\\BT_QLDA\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi11\\ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProjectWeek01_Tam_1150080156\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\A.monhoc\\BT_QLDA\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi11\\ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProjectWeek01_Tam_1150080156\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T07:19:38.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MVC.jpg - Bitmap [885x357, 24 bit, JPG]",
+              "DocumentMoniker": "D:\\A.monhoc\\BT_QLDA\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi11\\ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156\\images\\MVC.jpg",
+              "RelativeDocumentMoniker": "ProjectWeek01_Tam_1150080156\\images\\MVC.jpg",
+              "ToolTip": "D:\\A.monhoc\\BT_QLDA\\PPPT_PMHDT\\NguyenHoTruongTam_1150080156_Buoi11\\ProjectWeek01_Tam_1150080156\\ProjectWeek01_Tam_1150080156\\images\\MVC.jpg - Bitmap [885x357, 24 bit, JPG]",
+              "RelativeToolTip": "ProjectWeek01_Tam_1150080156\\images\\MVC.jpg - Bitmap [885x357, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-11-10T06:58:51.695Z",
+              "EditorCaption": " - Bitmap [885x357, 24 bit, JPG]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
